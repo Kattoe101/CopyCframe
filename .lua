@@ -17,7 +17,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 CopyCframe.Name = "CopyCframe"
 CopyCframe.Parent = ScreenGui
-CopyCframe.BackgroundColor3 = Color3.fromRGB253, 221, 91
+CopyCframe.BackgroundColor3 = Color3.fromRGB253, (253, 214, 73)
 CopyCframe.BorderColor3 = Color3.fromRGB(247, 173, 1)
 CopyCframe.BorderSizePixel = 5
 CopyCframe.Position = UDim2.new(0.444042802, 0, 0.460447341, 0)
