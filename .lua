@@ -1,5 +1,7 @@
--- Gui to Lua
--- Version: 3.2
+
+-- roblox gui with cframe copy button
+-- Credits: Kattoe#7992
+
 
 -- Instances:
 
