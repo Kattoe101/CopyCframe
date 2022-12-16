@@ -1,3 +1,6 @@
+-- Gui to Lua
+-- Version: 3.2
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -10,10 +13,10 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 CopyCframe.Name = "CopyCframe"
 CopyCframe.Parent = ScreenGui
-CopyCframe.BackgroundColor3 = Color3.fromRGB(228, 231, 30)
-CopyCframe.BorderColor3 = Color3.fromRGB(243, 184, 33)
+CopyCframe.BackgroundColor3 = Color3.fromRGB(239, 218, 60)
+CopyCframe.BorderColor3 = Color3.fromRGB(247, 173, 1)
 CopyCframe.BorderSizePixel = 5
-CopyCframe.Position = UDim2.new(0.100132838, 0, 0.154668868, 0)
+CopyCframe.Position = UDim2.new(0.444042802, 0, 0.460447341, 0)
 CopyCframe.Size = UDim2.new(0, 72, 0, 31)
 CopyCframe.Font = Enum.Font.Ubuntu
 CopyCframe.Text = "Copy Cframe"
@@ -24,7 +27,7 @@ CopyCframe.TextWrapped = true
 
 -- Scripts:
 
-local function WESF_fake_script() -- CopyCframe.Script 
+local function ANWJOA_fake_script() -- CopyCframe.Script 
 	local script = Instance.new('Script', CopyCframe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -32,4 +35,13 @@ local function WESF_fake_script() -- CopyCframe.Script
 		setclipboard(Cframe)
 	end)
 end
-coroutine.wrap(WESF_fake_script)()
+coroutine.wrap(ANWJOA_fake_script)()
+local function KDVNYYR_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.CopyCframe
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(KDVNYYR_fake_script)()
