@@ -1,6 +1,6 @@
-
 -- roblox gui with cframe copy button
 -- Credits: Kattoe#7992
+-- Date: 16-12-2022
 
 
 -- Instances:
@@ -15,7 +15,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 CopyCframe.Name = "CopyCframe"
 CopyCframe.Parent = ScreenGui
-CopyCframe.BackgroundColor3 = Color3.fromRGB(239, 218, 60)
+CopyCframe.BackgroundColor3 = Color3.fromRGB(252, 224, 63)
 CopyCframe.BorderColor3 = Color3.fromRGB(247, 173, 1)
 CopyCframe.BorderSizePixel = 5
 CopyCframe.Position = UDim2.new(0.444042802, 0, 0.460447341, 0)
@@ -29,7 +29,7 @@ CopyCframe.TextWrapped = true
 
 -- Scripts:
 
-local function ANWJOA_fake_script() -- CopyCframe.Script 
+local function ZDAJ_fake_script() -- CopyCframe.Script 
 	local script = Instance.new('Script', CopyCframe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -37,8 +37,8 @@ local function ANWJOA_fake_script() -- CopyCframe.Script
 		setclipboard(Cframe)
 	end)
 end
-coroutine.wrap(ANWJOA_fake_script)()
-local function KDVNYYR_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(ZDAJ_fake_script)()
+local function ZNHH_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.CopyCframe
@@ -46,4 +46,4 @@ local function KDVNYYR_fake_script() -- ScreenGui.LocalScript
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(KDVNYYR_fake_script)()
+coroutine.wrap(ZNHH_fake_script)()
