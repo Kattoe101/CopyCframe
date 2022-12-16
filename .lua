@@ -16,8 +16,8 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 CopyCframe.Name = "CopyCframe"
 CopyCframe.Parent = ScreenGui
-CopyCframe.BackgroundColor3 = Color3.fromRGB(239, 204, 73)
-CopyCframe.BorderColor3 = Color3.fromRGB(247, 173, 1)
+CopyCframe.BackgroundColor3 = Color3.fromRGB(255, 219, 12)
+CopyCframe.BorderColor3 = Color3.fromRGB(235, 157, 0)
 CopyCframe.BorderSizePixel = 5
 CopyCframe.Position = UDim2.new(0.444042802, 0, 0.460447341, 0)
 CopyCframe.Size = UDim2.new(0, 72, 0, 31)
@@ -30,7 +30,7 @@ CopyCframe.TextWrapped = true
 
 -- Scripts:
 
-local function XEUX_fake_script() -- CopyCframe.Script 
+local function JUUUIE_fake_script() -- CopyCframe.Script 
 	local script = Instance.new('Script', CopyCframe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -38,8 +38,8 @@ local function XEUX_fake_script() -- CopyCframe.Script
 		setclipboard(Cframe)
 	end)
 end
-coroutine.wrap(XEUX_fake_script)()
-local function VCFTDOF_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(JUUUIE_fake_script)()
+local function SBYNQ_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.CopyCframe
@@ -47,4 +47,4 @@ local function VCFTDOF_fake_script() -- ScreenGui.LocalScript
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(VCFTDOF_fake_script)()
+coroutine.wrap(SBYNQ_fake_script)()
