@@ -4,6 +4,7 @@
 -- Date: 16-12-2022
 
 
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -16,7 +17,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 CopyCframe.Name = "CopyCframe"
 CopyCframe.Parent = ScreenGui
-CopyCframe.BackgroundColor3 = Color3.fromRGB(252, 224, 63)
+CopyCframe.BackgroundColor3 = Color3.fromRGB(253, 233, 100)
 CopyCframe.BorderColor3 = Color3.fromRGB(247, 173, 1)
 CopyCframe.BorderSizePixel = 5
 CopyCframe.Position = UDim2.new(0.444042802, 0, 0.460447341, 0)
@@ -30,7 +31,7 @@ CopyCframe.TextWrapped = true
 
 -- Scripts:
 
-local function ZDAJ_fake_script() -- CopyCframe.Script 
+local function LPVVAM_fake_script() -- CopyCframe.Script 
 	local script = Instance.new('Script', CopyCframe)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -38,8 +39,8 @@ local function ZDAJ_fake_script() -- CopyCframe.Script
 		setclipboard(Cframe)
 	end)
 end
-coroutine.wrap(ZDAJ_fake_script)()
-local function ZNHH_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(LPVVAM_fake_script)()
+local function DNFR_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	frame = script.Parent.CopyCframe
@@ -47,4 +48,4 @@ local function ZNHH_fake_script() -- ScreenGui.LocalScript
 	frame.Selectable = true
 	frame.Active = true
 end
-coroutine.wrap(ZNHH_fake_script)()
+coroutine.wrap(DNFR_fake_script)()
